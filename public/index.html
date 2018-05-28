@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Farve spillet</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+			<link rel="stylesheet" href="/css/style.css">
+			
+			<link rel="manifest" href="/manifest.json">
+
+  
+</head>
+
+<body>
+
+  <div class="card">
+		<div class="inner start-screen open">
+		  <h1>Farve spillet</h1>
+		  <p>
+		<input id="name" type="text" name="name" value="" placeholder="Navn">
+			</p>
+
+			<p>&nbsp;</p>
+
+			<button class="play-now" type="button" name="play">Spil</button>
+		</div>
+		<div class="inner game">
+		  <h1>Farve spillet</h1>
+		  <div class="game-stats">
+		<div class="lifes">
+					<i class="fa fa-heart-o" aria-hidden="true"></i>
+					<span class="val">0</span>
+				</div>
+				<div class="user-name"></div>
+				<div class="level">
+					<i class="fa fa-star-o" aria-hidden="true"></i>
+					<span class="val">0</span>
+				</div>
+			</div>
+
+			<svg width="500px" height="500px" viewBox="0 0 240 237" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					<g id="app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g id="color-game" transform="translate(-40.000000, -101.000000)">
+									<g class="" id="game-board" transform="translate(40.000000, 101.000000)">
+											<rect class="option bottom left" fill="#dddddd" x="0" y="163.72093" width="72.8679071" height="72.865118" rx="5"></rect>
+											<rect class="option bottom center" fill="#dddddd" x="82.7906977" y="163.72093" width="72.8679071" height="72.865118" rx="5"></rect>
+											<rect class="option bottom right" fill="#dddddd" x="166.511628" y="163.72093" width="72.8679071" height="72.865118" rx="5"></rect>
+											<rect class="option middle left" fill="#dddddd" x="0" y="81.8604651" width="72.8679071" height="72.865118" rx="5"></rect>
+											<rect class="option middle center" fill="#dddddd" x="82.7906977" y="81.8604651" width="72.8679071" height="72.865118" rx="5"></rect>
+											<rect class="option middle right" fill="#dddddd" x="166.511628" y="81.8604651" width="72.8679071" height="72.865118" rx="5"></rect>
+											<rect class="option top left" fill="#dddddd" x="0" y="0" width="72.8679071" height="72.865118" rx="5"></rect>
+											<rect class="option top center" fill="#dddddd" x="82.7906977" y="0" width="72.8679071" height="72.865118" rx="5"></rect>
+											<rect class="option top right" fill="#dddddd" x="166.511628" y="0" width="72.8679071" height="72.865118" rx="5"></rect>
+									</g>
+							</g>
+					</g>
+			</svg>
+
+		  <p class="stuck">Sidder du fast på banen?<br/>køb forsøg med stjerner</p>
+
+		  <button class="new-board" type="button" name="reset">Ny palette</button>
+
+		</div>
+		<div class="inner game-over">
+		  <h1>Du døde</h1>
+		  <div class="score"></div>
+
+			<p>Fandt du spillet udfordrende?</p>
+
+			<button class="replay" type="button" name="replay">Spil igen</button>
+
+		</div>
+	</div>
+
+	<div class="message"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  
+
+    <script  src="/js/index.js"></script>
+		<script src="/js/manup.js"></script>
+		<script  src="/pwabuilder-sw-register.js"></script>
+		<script  src="/pwabuilder-sw.js"></script>
+
+</body>
+
+</html>

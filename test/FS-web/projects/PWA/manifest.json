@@ -1,0 +1,107 @@
+{
+    "dir": "ltr",
+    "lang": "Danish",
+    "name": "Farve spillet",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "http://5.189.133.36:1561/",
+    "short_name": "FS",
+    "theme_color": "transparent",
+    "description": "Et spil til at træne øjet til at skælne farver",
+    "orientation": "portrait-primary",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/d1ae0b75-bd58-8ea9-046a-cc828fd616ef.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/190dea30-afc4-3b48-727b-4f0fff42325e.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1b62e7c9-4c52-3010-83a4-f2c3ec3bd45e.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/815c2dca-81f0-46f6-7139-f9d27904492e.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c0f238cd-fb10-8313-ec4b-408d49ab83d1.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7281e4fa-9ffa-fdd9-de07-19ce104e72ee.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c0cba9fd-a889-82a8-4af3-ac2eed70656b.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3982ea19-5d15-be86-c3fc-03722ce86273.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/5307fab2-6509-e7f4-84fd-e17446cef511.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/52a0bd93-b4e6-b7cd-088d-4f538f03c0e7.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b3831653-edfb-eae7-d924-6b79a97a4cc9.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8208b8e5-36aa-1a16-1b76-5fbb967e8d9f.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/719c9f5c-b634-fabd-8b6a-56e1cb3801df.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/f92d1a38-cf69-5d54-3f18-15359a20f8a4.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8af83737-17b4-59f9-9d89-39d29433e2ef.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7f080387-3484-1aaa-9cfb-a89060607e72.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/7234914e-4a0d-b7ce-38a0-4f75d97501d4.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d5bbdea6-a89b-5c1f-cbba-a20a8a4b4c93.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}
